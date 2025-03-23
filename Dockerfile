@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk update && apk upgrade && apk add bash wget curl fuse
+RUN apk update && apk upgrade && apk add bash wget curl fuse3
 
 RUN curl -sSL instl.vercel.app/rclone | bash
 
